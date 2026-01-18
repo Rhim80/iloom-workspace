@@ -8,12 +8,12 @@
 
 ## 카테고리
 
-- business
-- ai  
-- cafe
-- study
-- daily
-- random
+- marketing (마케팅 아이디어)
+- campaign (캠페인/프로모션)
+- content (콘텐츠 기획)
+- process (업무 프로세스 개선)
+- ai (AI 활용)
+- daily (일상)
 
 ## 파일명 규칙
 

@@ -1,138 +1,73 @@
-# ⚙️ Metadata
+# 00-system
 
-Vault configuration, documentation, and organizational tools.
+> 워크스페이스 시스템 설정 및 가이드
 
-## Purpose
+---
 
-The metadata folder contains:
-- Documentation about the vault
-- Templates for consistent note creation
-- Reference guides and how-tos
-- Agent configurations
-- Workflow documentation
-
-## Structure
+## 폴더 구조
 
 ```
-06_Metadata/
-├── Reference/         # Guides and documentation
-├── Templates/        # Note templates
-├── Agents/          # Claude Code agent configs
-├── Workflows/       # Documented processes
-└── Archive/        # Old configurations
+00-system/
+├── 01-templates/      # 노트 템플릿
+├── 02-scripts/        # 자동화 스크립트
+├── 03-guides/         # 사용 가이드
+└── 04-docs/           # 문서
 ```
 
-## What Lives Here
+---
 
-### Reference
-- This vault's documentation
-- Claude Code prompt library
-- Style guides
-- Workflow documentation
-- Learning resources
+## 주요 파일
 
-### Templates
-- Project templates
-- Daily note templates
-- Meeting templates
-- Research templates
-- Review templates
+### Templates (01-templates/)
 
-### Agents
-- Thinking partner instructions
-- Research assistant config
-- Editor agent setup
-- Custom agent definitions
+| 파일 | 용도 |
+|------|------|
+| `daily-note-template.md` | Daily Note 생성 시 사용 |
+| `weekly-review-template.md` | 주간 회고 템플릿 |
+| `Project Template.md` | 새 프로젝트 시작 시 사용 |
 
-### Workflows
-- Weekly review process
-- Project completion checklist
-- Inbox processing guide
-- Archive procedures
+### Guides (03-guides/)
 
-## Using Templates
+| 파일 | 내용 |
+|------|------|
+| `CLAUDE-MD-BEST-PRACTICES.md` | CLAUDE.md 작성 가이드 |
+| `PROMPT-ENGINEERING-GUIDE.md` | 프롬프트 엔지니어링 기초 |
+| `TODO-SYSTEM-GUIDE.md` | 할 일 관리 시스템 |
 
-### Manual
-1. Copy template content
-2. Create new note
-3. Paste and fill in
+### 실습 가이드
 
-### With Claude Code
+| 파일 | 내용 |
+|------|------|
+| `claude-code-practice-guide.md` | 데이터 분석 실습 가이드 (미션 1-6) |
+
+---
+
+## 사용법
+
+### 템플릿 활용
+
 ```
-Create a new project using the project template.
-Name it [Project Name] and put it in 01_Projects.
+"daily-note-template.md 사용해서 오늘 노트 만들어줘"
 ```
 
-## Creating Custom Agents
+또는 `/daily-note` 커맨드 사용
 
-Save agent instructions as markdown files:
+### 가이드 참조
 
-```markdown
-# Agent: [Name]
-
-You are a [role description].
-
-## Core Behaviors
-- Behavior 1
-- Behavior 2
-
-## Workflow
-1. Step 1
-2. Step 2
-
-## Constraints
-- Don't do X
-- Always do Y
+```
+"PROMPT-ENGINEERING-GUIDE.md 읽고 핵심 정리해줘"
 ```
 
-Then reference in Claude Code:
-```
-Use the instructions in 06_Metadata/Agents/[agent].md
-and help me with [task].
-```
+---
 
-## Claude Code Prompts
+## 일룸 AX 교육 관련
 
-### Template Usage
-```
-Show me available templates in 06_Metadata/Templates.
-Create a new [type] note using the appropriate template.
-```
+이 워크스페이스는 일룸 마케팅팀 AI 전환(AX) 교육용으로 설계되었습니다.
 
-### Documentation
-```
-Check 06_Metadata/Reference for documentation on [topic].
-Update the guide based on what we just learned.
-```
+- **실습 데이터**: `50-resources/sample-data/`
+- **실습 가이드**: `claude-code-practice-guide.md`
+- **미션 구성**: 판매 분석 → 고객 분석 → 마케팅 ROI → 재고 관리 → 고객 만족도
 
-### Workflow Execution
-```
-Run the weekly review workflow from 06_Metadata/Workflows.
-Guide me through each step.
-```
+---
 
-## Maintenance
-
-### Regular Updates
-- Update templates based on usage
-- Document new workflows as they emerge
-- Archive outdated configurations
-- Keep reference docs current
-
-### Version Control
-- Track changes to workflows
-- Document why changes were made
-- Keep archive of old versions
-- Date major updates
-
-## Best Practices
-
-- **Document as you go** - Capture workflows while fresh
-- **Iterate templates** - Improve based on usage
-- **Share configurations** - What works for you might help others
-- **Keep it simple** - Complex systems break
-- **Date everything** - Context matters
-
-## Remember
-
-Metadata is the operating system of your vault. Good metadata means consistent structure, repeatable workflows, and scalable growth. This is where you document not just what you know, but how you work.
+*iloom-workspace 00-system*

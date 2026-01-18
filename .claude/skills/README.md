@@ -43,7 +43,7 @@ gcalcli init
 **상태**: 설정 가이드 완료 ✨
 
 웹페이지 크롤링 + 이미지 OCR을 자동으로 처리:
-- "https://competitor-cafe.com 분석해줘"
+- "https://hanssem.com 분석해줘"
 - "이 페이지 크롤링해줘"
 - "경쟁사 웹사이트 분석"
 - "대용량 이미지 OCR 필요해"

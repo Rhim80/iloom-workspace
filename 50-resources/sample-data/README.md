@@ -42,7 +42,7 @@
 | `customer_data.csv` | 고객 정보 및 구매 이력 | 영업팀 |
 | `marketing_campaign_data.csv` | 마케팅 캠페인 성과 | 마케팅팀 |
 | `inventory_data.csv` | 재고 현황 | 물류팀 |
-| `employee_survey_data.csv` | 고객 만족도 설문 | 고문정팀 |
+| `customer_survey_data.csv` | 고객 만족도 설문 | 고문정팀 |
 
 ---
 
@@ -150,7 +150,7 @@
 > "고문정팀에서 고객 만족도 설문 결과 공유받았어.
 > 본부장이 고객 반응에 관심 많아서 이것도 넣어야 해."
 
-**분석 파일**: `employee_survey_data.csv`
+**분석 파일**: `customer_survey_data.csv`
 
 **분석 포인트**:
 - 제품 카테고리별 만족도 비교
@@ -160,7 +160,7 @@
 
 **질문 예시**:
 ```
-"employee_survey_data.csv를 분석해서 카테고리별 만족도를 비교해줘"
+"customer_survey_data.csv를 분석해서 카테고리별 만족도를 비교해줘"
 "가장 개선이 필요한 영역은 뭐야?"
 "온라인/오프라인 고객 만족도 차이가 있어?"
 "추천의향이 낮은 제품은 어떤 거야?"
