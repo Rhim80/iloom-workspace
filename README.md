@@ -45,9 +45,8 @@ iloom-workspace/
 |--------|------|
 | `/daily-note` | 오늘의 Daily Note 생성 |
 | `/todo` | 할 일 추가 |
+| `/idea` | 아이디어 저장 |
 | `/thinking-partner` | 브레인스토밍 |
-| `/monitoring` | 브랜드 모니터링 (예정) |
-| `/sns-draft` | SNS 콘텐츠 초안 (예정) |
 
 ---
 

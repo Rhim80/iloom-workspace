@@ -5,9 +5,9 @@
 ## 사용법
 
 ```
-/todo 서수현님 급여 차액 확인
-/todo [urgent] 노무사 퇴직금 문의
-/todo [gpters] 19기 선정 결과 확인
+/todo 신제품 출시 콘텐츠 기획
+/todo [urgent] 경쟁사 캠페인 분석 마감
+/todo [marketing] SNS 콘텐츠 일정 확인
 ```
 
 ## 작동 방식
@@ -27,7 +27,7 @@
    - 현재 디렉토리가 프로젝트면 자동 연결
 
 4. **저장 위치**
-   - `pkm/40-personal/43-todos/active-todos.md`의 "📥 Inbox" 섹션
+   - `./40-personal/46-todos/active-todos.md`의 "📥 Inbox" 섹션
 
 ## 실행
 
@@ -55,9 +55,9 @@
 
 **예시 출력:**
 ```
-✅ Todo 추가됨: 서수현님 급여 차액 확인
+✅ Todo 추가됨: 신제품 출시 콘텐츠 기획
    Priority: normal
-   Context: gpters-ai-branding-study/README.md
+   Context: 10-projects/product-launch/README.md
 
    📝 /todos 로 전체 목록을 확인하세요.
 ```

@@ -16,18 +16,18 @@
 
 ### 1. `/todos` (기본 - 전체 보기)
 
-`pkm/40-personal/43-todos/active-todos.md` 파일을 읽어서 표시
+`./40-personal/46-todos/active-todos.md` 파일을 읽어서 표시
 
 **출력 형식:**
 ```markdown
 # 📋 전체 Todo 목록 (15개)
 
 ## 📥 Inbox (처리 안 한 것들) - 7개
-- [ ] 급여 처리 확인
+- [ ] 신제품 출시 콘텐츠 기획
   - added: 2025-10-11 15:23
   - priority: high
 
-- [ ] 퇴직금 계산
+- [ ] 경쟁사 캠페인 분석
   - added: 2025-10-11 16:45
   - priority: normal
 
@@ -54,10 +54,10 @@
 # 🎯 오늘 할 일 (3개)
 
 ## High Priority
-- [ ] 급여 처리 확인 (15:23에 추가)
+- [ ] 신제품 출시 콘텐츠 기획 (15:23에 추가)
 
 ## Normal Priority
-- [ ] 예정된 작업 확인 (12:30에 추가)
+- [ ] SNS 콘텐츠 일정 확인 (12:30에 추가)
 - [ ] 프로젝트 진행 체크리스트 작성 (10:15에 추가)
 
 ---
@@ -76,23 +76,23 @@
 ```markdown
 # 🗂️ 프로젝트별 Todo
 
-## 📊 gpters-ai-branding-study (3개)
-- [ ] 19기 선정 결과 확인
-- [ ] Claudesidian 실험 계획
-- [ ] 템플릿 업데이트
+## 🪑 product-launch (3개)
+- [ ] 신제품 출시 콘텐츠 기획
+- [ ] 제품 촬영 일정 조율
+- [ ] 출시 캠페인 기획안 작성
 
-## ☕ imi-operations (4개)
-- [ ] 매장 급여 차액 확인
-- [ ] 직원 퇴직금 계산
-- [ ] 매장 인테리어 보수
-- [ ] 설비 점검 예약
+## 📱 marketing-sns (4개)
+- [ ] 인스타그램 콘텐츠 일정 확인
+- [ ] 블로그 포스팅 초안 작성
+- [ ] 유튜브 썸네일 요청
+- [ ] 이벤트 페이지 검수
 
-## 📚 archimedes-bath-lecture (2개)
-- [ ] 커리큘럼 3주차 작성
-- [ ] 실습 자료 준비
+## 📊 competitor-analysis (2개)
+- [ ] 한샘 신제품 분석
+- [ ] 리바트 캠페인 리서치
 
 ## 🔧 Unassigned (프로젝트 미지정) (1개)
-- [ ] 노무사 연락
+- [ ] 회의록 정리
 
 ---
 💡 /todo [프로젝트명] [내용] 으로 프로젝트 지정 가능
@@ -110,14 +110,14 @@
 # ⚠️ 오래된 Todo (1주일 이상)
 
 ## 🔴 14일 지남
-- [ ] 사무실 보안 시스템 견적
+- [ ] 분기 리포트 데이터 정리
   - added: 2025-09-27 10:30
-  - project: imi-operations
+  - project: marketing-sns
 
 ## 🟠 10일 지남
-- [ ] 세무사 자료 정리
+- [ ] 경쟁사 리뷰 분석 마무리
   - added: 2025-10-01 14:20
-  - project: 없음
+  - project: competitor-analysis
 
 ---
 ⚠️ 장기 프로젝트는 괜찮지만, 급한 일이면 빠르게 처리하세요!
@@ -144,9 +144,9 @@
 - Low: 2개 (13%)
 
 ## 프로젝트별
-- imi-operations: 5개
-- gpters-ai-branding-study: 3개
-- education: 2개
+- product-launch: 5개
+- marketing-sns: 3개
+- competitor-analysis: 2개
 - 기타: 5개
 
 ## 상태별
@@ -169,8 +169,8 @@
 ### Smart Suggestions (똑똑한 제안)
 ```
 💡 제안:
-- "급여 처리" - 2일 지남, 오늘 처리하시겠어요?
-- "gpters" 관련 Todo 3개 - 한 번에 처리하면 효율적일 것 같아요
+- "신제품 출시" - 2일 지남, 오늘 처리하시겠어요?
+- "marketing-sns" 관련 Todo 3개 - 한 번에 처리하면 효율적일 것 같아요
 - 프로젝트 미지정 Todo 1개 - 프로젝트를 지정하시겠어요?
 ```
 
@@ -184,5 +184,5 @@
 6. 출력
 
 **파일 경로:**
-- 읽기: `pkm/40-personal/43-todos/active-todos.md`
-- 아카이브: `pkm/40-personal/43-todos/completed-todos.md`
+- 읽기: `./40-personal/46-todos/active-todos.md`
+- 아카이브: `./40-personal/46-todos/completed-todos.md`

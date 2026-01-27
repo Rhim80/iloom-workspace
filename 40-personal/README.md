@@ -17,8 +17,9 @@
 
 ## Daily Note
 
-매일 작성하는 노트로, 템플릿은 `00-system/01-templates/daily-note.md`를 사용하세요.
+매일 작성하는 노트로, 템플릿은 `00-system/01-templates/daily-note-template.md`를 사용하세요.
+또는 `/daily-note` 커맨드 사용
 
 ## Weekly Review
 
-주간 회고로, 템플릿은 `00-system/01-templates/weekly-review.md`를 사용하세요.
+주간 회고로, 템플릿은 `00-system/01-templates/weekly-review-template.md`를 사용하세요.
