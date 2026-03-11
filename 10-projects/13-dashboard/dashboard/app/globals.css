@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;400;500;600;700;900&family=Noto+Sans+KR:wght@400;500;600;700&display=swap');
+
+@layer base {
+  body {
+    font-family: 'Noto Sans KR', sans-serif;
+    color: #333333;
+    background: #FAFAF8;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  h1, h2, h3 {
+    font-family: 'Montserrat', 'Noto Sans KR', sans-serif;
+  }
+}
+
+@layer components {
+  .section-title {
+    @apply font-display text-h2 text-iloom-text tracking-tight;
+  }
+}
